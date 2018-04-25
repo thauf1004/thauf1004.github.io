@@ -7,6 +7,6 @@ categories: ForMyFuture
 
 이룸이사진 ㅋㅋㅋ
 {% assign image_files = site.static_files | where: "image", true %}
-{% for myimage in image_files limit:10 %}
+{% tablerow myimage in image_files limit:10 %}
   <img src="{{ myimage.path | absolute_url }}" alt="My helpful screenshot">
-{% endfor %}
+{% tablerow %}
