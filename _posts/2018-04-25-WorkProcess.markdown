@@ -3,6 +3,7 @@ layout: post
 title:  "업무 프로세스"
 date:   2018-04-25 16:44:59 +0900
 categories: forMyFuture
+published: false
 ---
 
 업무방식에 대한 고찰
@@ -12,7 +13,7 @@ categories: forMyFuture
 장점
  1. 일단 본인이 단위시간별 작업량을 측정할수있다.
  2. 집중력이 높아진다.
- 3. 
+ 3.
 
 
 
