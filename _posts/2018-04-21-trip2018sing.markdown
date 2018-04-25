@@ -10,5 +10,5 @@ categories: ForMyFuture
 <table>
 {% tablerow  myimage in image_files cols:3 limit:4%}
   ![My helpful screenshot]({{ myimage.path | absolute_url }})
-{% tablerow  %}
+{% endtablerow %}
 </table>
