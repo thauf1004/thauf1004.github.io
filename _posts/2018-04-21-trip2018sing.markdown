@@ -6,7 +6,6 @@ categories: forMyFuture
 ---
 
 싱가폴 여행계획
-![My helpful screenshot]({{ "/assets/img/KakaoTalk_20170601_121952528.jpg" | absolute_url }})
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
   ![My helpful screenshot]({{ myimage.path | absolute_url }})
