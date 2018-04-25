@@ -9,6 +9,6 @@ categories: ForMyFuture
 {% assign image_files = site.static_files | where: "image", true %}
 <table>
 {%- tablerow myimage in image_files limit:10 -%}
-  ![My helpful screenshot]({{ myimage.path | absolute_url }})
+<p>![My helpful screenshot]({{ myimage.path | absolute_url }})</p>
 {%- endtablerow -%}
 </table>
