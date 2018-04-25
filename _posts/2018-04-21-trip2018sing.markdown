@@ -7,8 +7,9 @@ categories: ForMyFuture
 
 싱가폴 여행계획
 {% assign image_files = site.static_files | where: "image", true %}
+
 <table>
-{% tablerow  myimage in image_files cols:3 limit:4%}
+{% tablerow  myimage in image_files %}
   ![My helpful screenshot]({{ myimage.path | absolute_url }})
 {% endtablerow %}
 </table>
