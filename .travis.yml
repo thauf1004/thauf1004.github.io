@@ -8,6 +8,8 @@ before_install:
   - gem install bundler
   - export CXX="g++-4.8"
 
+install: gem install rails
+
 rvm:
   - 2.2
   - jruby
