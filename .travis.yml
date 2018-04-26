@@ -1,0 +1,21 @@
+---
+language: ruby
+
+dist: trusty
+sudo: false
+
+before_install:
+  - rvm get head
+  - gem install bundler
+  - export CXX="g++-4.8"
+
+rvm:
+  - 2.2
+  - jruby
+  - 2.0.0-p247
+
+notifications:
+  slack:
+    on_success: change
+ notifications:
+    slack: youngjincompany:a3uS2Tjh4zSRFLGx8rN4DmFM
