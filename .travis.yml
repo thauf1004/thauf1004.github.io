@@ -18,3 +18,11 @@ notifications:
     on_success: change
  notifications:
     slack: youngjincompany:a3uS2Tjh4zSRFLGx8rN4DmFM
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: master
