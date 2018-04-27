@@ -23,13 +23,13 @@ Java Spring과 웹 시각화 라이브러리(dimple)를 활용하였습니다.
 웹기반 올랩 툴을 개발하였습니다. 쿼리를 포함한 DataSet 을 개발하여, 데이터베이스의 정보를 기반으로 필터를 적용하여, Grid 와 Graph 를 만드는 툴을 개발하였습니다.
 
 ####펜타온 BizfastCard 시스템 Backend (2016.11.01~재직중)
-최초로 Java Spring BackEnd 프로그래머로 일을 하였습니다.
+ Java Spring BackEnd 프로그래머로 일을 하였습니다.
 
 -------------
 ###자기소개
 
 #### 잘하는것.
- Query
+ Query, Java, Log분석
 
 #### 어려웠던것과 그걸 극복한 경험.
 
