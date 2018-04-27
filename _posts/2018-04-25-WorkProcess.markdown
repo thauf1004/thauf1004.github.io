@@ -13,15 +13,9 @@ published: false
 장점
  1. 일단 본인이 단위시간별 작업량을 측정할수있다.
  2. 집중력이 높아진다.
- 3.
-
-
-
-
-
-
-
+ 3.   
 
 [아이디인큐]: https://www.jobplanet.co.kr/companies/68173/info/%EC%95%84%EC%9D%B4%EB%94%94%EC%9D%B8%ED%81%90
+
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/

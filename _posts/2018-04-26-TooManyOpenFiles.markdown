@@ -57,6 +57,7 @@ virtual memory (kbytes, -v) unlimited
 결국 이 라이브러리를 사용하는 API가 호출 될 때마다 File을 Copy 한 후, File Open 하는 구조로 되어있다.
 그리고 이 문제에 대해 근본적인 해결책은 아직 마련하지 못했다.
 
+라이브러리를 수정해서 build
 
 
 
